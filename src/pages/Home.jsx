@@ -9,6 +9,7 @@ import dancing from "../assets/dancing.gif"
 
 import { motion } from "framer-motion";
 import Paragraph from "../components/Paragraph";
+import Banner from "../components/Banner";
 
 const gridContainerVarients = {
   hidden: { opacity: 0 },
@@ -169,6 +170,7 @@ function Home() {
           Quibusdam eaque excepturi adipisci!
         </Container>
       </div>
+      <Banner />    
     </div>
   );
 }
