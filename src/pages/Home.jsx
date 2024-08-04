@@ -106,12 +106,13 @@ function Home() {
           </motion.h1>
           <Paragraph variants={gridBoxVarients} />
           <motion.a
+            href="https://discord.gg/mHr7xrw6"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 1 }}
             variants={gridBoxVarients}
             className="px-6 duration-300 py-4 bg-secondry border-1  border-transparent hover:border-sky-950 shadow-2xl hover:bg-slate-950  font-mono font-semibold text-lg rounded-full text-slate-900 hover:text-secondry cursor-pointer"
           >
-            Join The Discord
+            Join DIscord
           </motion.a>
         </motion.div>
       </Container>
