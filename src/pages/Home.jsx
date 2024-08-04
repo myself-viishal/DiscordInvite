@@ -116,7 +116,7 @@ function Home() {
             Join DIscord
           </motion.a>
         </motion.div>
-        <div className="fixed top-0 flex  flex-row justify-center w-full z-10  ">
+        <div className="absolute top-0 flex  flex-row justify-center w-full z-10  ">
           <img
             src={dancing}
             alt=""
