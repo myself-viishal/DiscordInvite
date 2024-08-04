@@ -5,6 +5,7 @@ import star from "../assets/bg_assets/bg_stars.webp";
 import star2 from "../assets/bg_assets/bg_stars4.webp";
 import crown from "../assets/bg_assets/crown.webp";
 import wave from "../assets/wave.svg";
+import dancing from "../assets/dancing.gif"
 
 import { motion } from "framer-motion";
 import Paragraph from "../components/Paragraph";
@@ -115,6 +116,28 @@ function Home() {
             Join DIscord
           </motion.a>
         </motion.div>
+        <div className="fixed top-0 flex  flex-row justify-center w-full z-10  ">
+          <img
+            src={dancing}
+            alt=""
+            srcset=""
+            className=" w-40 rotate-180 -translate-y-2    object-center object-cover"
+          />
+
+          <div className="flex items-end relative">
+            <p className="text-sm text-slate-300 bg-slate-950 relative rounded-lg border border-slate-900 py-2 px-4 flex items-start">
+              Created by{" "}
+              <a
+                className="text-blue-500 hover:text-slate-300 cursor-pointer font-semibold italic hover:scale-105 px-2 z-[9999] relative"
+                href="https://www.instagram.com/vishal_notliterally/"
+              >
+                Vishal
+              </a>
+              .{/* triangle */}
+              <div className="bg-slate-950 absolute w-4 aspect-square rotate-45 -translate-x-6"></div>
+            </p>
+          </div>
+        </div>
       </Container>
 
       <div className="z-50 relative bg-white ">
